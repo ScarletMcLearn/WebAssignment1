@@ -1,0 +1,58 @@
+#home-body
+{
+    padding-top: 15px;
+}
+
+#welcome
+{
+    padding-bottom: 5px;
+
+    font-family: 'Charmonman', cursive;
+}
+
+#tiip
+{
+    background-color: #119DA4;
+
+    padding: 25px;
+}
+
+
+
+#homee
+{
+    background-color: #8CFBDE;
+
+    padding: 25px;
+}
+
+
+
+#abt
+{
+    /* background-color: #8CFBDE; */
+
+    padding: 25px;
+
+    background-image: url('assets/img/hk.jpg');
+    background-repeat:  repeat;
+}
+
+
+
+#pix
+{
+    max-width: 60%;
+}
+
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
